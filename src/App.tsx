@@ -5,9 +5,9 @@ import SongInfo from "./components/SongInfo";
 function App() {
   return (
     <main className="relative p-[10px]">
+      <SongInfo />
       <Controls />
       <Disk />
-      <SongInfo />
     </main>
   );
 }
